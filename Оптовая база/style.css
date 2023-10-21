@@ -1,0 +1,114 @@
+@media screen and (max-width: 700px) {
+    section, nav {   
+        flex-direction: column;
+    }
+    .main{
+        flex-wrap: wrap;
+    }
+    #tovarImg, #description{
+        padding: 0px;
+        margin: auto;
+    }
+
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    color: white;
+    background: #1abc9c;
+    text-align: center;
+    padding: 60px;
+}
+
+nav{
+    display: flex;
+    background-color: #333;
+}
+a{
+    color: white;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+aside{
+    padding: 20px;
+    flex-basis: 25%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    background-color: #f1f1f1;
+}
+
+.hidden{
+    flex-basis: 0;
+    padding: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.main{
+    padding: 20px;
+    flex-basis: 100%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    background-color: white;
+}
+footer{
+    background-color: #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+.fakeimg{
+    background-image: url(img.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+img{
+    height: 420px;
+    width: 340px;
+}
+
+.main{
+    display: flex;
+    flex-wrap: no-wrap;
+    justify-content: space-between;
+    
+}
+
+#tovarImg{
+    padding: 40px;
+    padding-top: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#NPD{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#description{
+    background-color: #ddd;
+    padding: 20px;
+    text-align: left;
+}
